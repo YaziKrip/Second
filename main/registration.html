@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/registration.css">
+    <title>Форма регистрации</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Регистрация</h1>
+            <input type="text" name="Name" id="Name" placeholder="Ваше имя" required>
+            <input type="text" name="Lastname" id="Lastname" placeholder="Ваша фамилия" required>
+            <input type="text" name="Middlename" id="Middlename" placeholder="Ваше отчество" required>
+            <input type="text" name="Login" id="Login" placeholder="Логин" required>
+            <input type="password" name="Password" id="Password" placeholder="Пароль" required>
+            <input type="email" name="Email" id="Email" placeholder="Ваша почта" required>
+            <input type="tel" name="Number" id="Number" placeholder="Номер телефона" required>
+            <button name="Send" id="Send">Зарегистрироваться</button>
+            <h4 style="font-weight: 100;">Уже зарегистрированы?</h4>
+            <a href="autorization.html">Войти</a>
+        </form>
+    </div>
+    <div class="join"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../script/registration.js"></script>
+</body>
+
+</html>
